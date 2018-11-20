@@ -1,0 +1,29 @@
+UI Requirements
+
+Input area for adding new ToDos
+may also need "add" button
+List of ToDos
+Each ToDo has:
+checkbox (or another way of checking off) to complete
+name of ToDo
+button to delete
+Style Requirements
+
+App should be nicely styled, no elements should look like default HTML elements!
+App should be centered on the page, and liquid layout so it works well on mobile
+Media queries not required but may be useful
+New ToDo box should not look like a default input
+ToDos should be separated from each other somehow
+ToDo controls (check off, delete) should be nicely styled
+Functionality Requirements
+
+Adding a new ToDo can be done by pressing enter or clicking a button
+After adding a ToDo, the input area for new ToDos should become blank
+New ToDos added to list
+Checking off a ToDo should cause it to stay on the list but be styled differently (maybe strikethrough, or faded, etc)
+Deleting a ToDo should remove it from the list entirely
+Data Requirements
+
+When page loads, existing ToDos are loaded from the server
+When new ToDo is added, send it to the server
+When a ToDo is "checked off" or deleted, send that to the server

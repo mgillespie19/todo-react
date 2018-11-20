@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Max Gillespie">
+        <meta name="keywords" content="todo list, Max Gillespie">
+        <meta name="description"
+                      content="A CSE 204 Todo List created by Max Gillespie!">
+        <meta name="viewport"
+                content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> TODO </title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <!-- JAvascript and JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+        <nav class="navbar-light">
+            <div class="d-flex justify-content-around">
+                <li id="navbar" class="navbar-brand">
+                    <a id="title_text" href="index.html" class="page-header">
+                        <b> my todo list </b>
+                    </a>
+                </li>
+                <div id="newStuff" class="d-flex justify-content-around" >
+                    <li class="nav-link">
+                      <input id="newText" type="text" placeholder="new todo" name="newText" class="btn">
+                    </li>
+                    <li class="nav-link">
+                        <button type="button" id="newBtn" class="btn btn-success"> +
+                        </button>
+                    </li>
+                </div>
+            </div>
+        </nav>
+
+        <div id="todoList" class="card bg-white">
+            <ul id = "todos">
+
+            </ul>
+        <div>
+
+          <script src="todoAPI.js"></script>
+    </body>
+</html>

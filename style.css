@@ -1,0 +1,65 @@
+/*
+API KEY:
+2ce301aa5a178dc6f4f18bd0943e3e3bf888e1d99b72530b8970e6ec6e17f137
+*/
+
+body {
+  background-color: rgb(250,246,243);
+}
+
+li > a {
+  font-size: 2em;
+}
+
+#newText {
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(220,220,220);
+
+  height:40px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#todoList {
+  width:50%;
+  margin-left:25%;
+  margin-top: 5%;
+}
+
+#title_text {
+  color: black;
+}
+
+#todos {
+  list-style-type: none;
+}
+
+#todos > li {
+  height: 65px;
+  margin-top: 15px;
+}
+
+.todoItem {
+  font-size: 1.4em;
+}
+
+#deleteLink {
+  color: red;
+}
+
+.glyphicon {
+  float: right;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+input:focus {
+  background-color: rgb(250,246,243);
+}
+
+.todoCOMPLETE {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
