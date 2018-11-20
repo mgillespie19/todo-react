@@ -1,0 +1,19 @@
+{
+  "name": "08-todo-react-mgillespie19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todoAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://wustlcse204.github.io/08-todo-react-mgillespie19"
+  },
+  "author": "Max Gillespie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgillespie19/todo-react/issues"
+  },
+  "homepage": "https://github.com/mgillespie19/todo-react#readme"
+}
